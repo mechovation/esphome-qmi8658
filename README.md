@@ -13,7 +13,8 @@ esphome:
   libraries:
     - "Wire"
     - "SPI"
-    - "SensorLib"
+    # - "SensorLib"
+    - "SensorLib@0.2.1"  # Some change after v0.2.1 makes compiling fail
 
 external_components:
 - source: github://dala318/esphome-qmi8658
